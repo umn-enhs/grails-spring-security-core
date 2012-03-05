@@ -3,6 +3,11 @@ import grails.util.Metadata
 grails.project.work.dir = 'target'
 grails.project.docs.output.dir = 'docs/manual' // for backwards-compatibility, the docs are checked into gh-pages branch
 
+grails.project.repos.umnNcs.url = "http://artifact.ncs.umn.edu/plugins-release-local"
+grails.project.repos.umnNcs.type = "maven"
+grails.project.repos.default = "umnNcs"
+grails.release.scm.enabled = false
+
 grails.project.dependency.resolution = {
 
 	inherits 'global'
