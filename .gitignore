@@ -5,3 +5,6 @@ stacktrace.log
 /grails-spring-security-core-*.zip
 /testapps.config.groovy
 /plugin.xml
+grails-app/conf/UrlMappings.groovy
+grails-app/i18n/messages.properties
+web-app/
